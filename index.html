@@ -18,15 +18,14 @@ position: absolute;
 display: block;
 top: 0;
 left: 0;
-z-index: -10;
+z-index: 0;
 }
     </style>
     <script>
       window.onload= function() {
-        var particles = Particles.init({
-	selector: '.background',
-  color: ['#DA0463', '#404B69', '#DBEDF3'],
-  connectParticles: true
+        Particles.init({
+    selector: '.background'
+  });
 });
      };
     </script>
